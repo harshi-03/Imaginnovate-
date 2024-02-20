@@ -1,0 +1,156 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.navbar-brand {
+    color: #137a85;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+.navbar-logo img {
+    max-height: 60px;
+    margin-right: 20px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 20px;
+    color: white !important;
+}
+
+.header-content,
+.new-section,
+.full-background {
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+}
+
+.header-content h1,
+.new-section h1,
+.full-background h1 {
+    font-size: 3rem;
+}
+
+.header-content p,
+.new-section p,
+.full-background p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+.full-background {
+background-image: url('https://hxn142.a2cdn1.secureserver.net/wp-content/uploads/2021/04/getintouch.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+/* height: 100vh;*/
+display: flex;
+/*flex-direction: column;
+align-items: center;
+justify-content: center;*/
+text-align: center;
+padding: 100px 0;
+color: white; 
+}
+.header-content .btn,
+.full-background button {
+    font-size: 1.5rem;
+}
+
+.new-section h1 {
+    color: black;
+}
+
+.new-section p {
+    color: black;
+}
+
+.wp-block-image img {
+    box-sizing: border-box;
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+.rounded-ellipse-btn {
+    border-radius: 50px;
+}
+
+.container {
+    margin: auto;
+}
+.sticky-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(178, 17, 17, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sticky-header.scrolled {
+    background-color: white; /* Change background color on scroll */
+    
+}
+.sticky-header.scrolled .navbar-nav .nav-link {
+color: black !important; /* Change text color on scroll */
+}
+.four-columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.orange {
+    color: #FF6428;
+    
+}
+
+/* .custom-btn {
+    transition: color 0.3s ease-in-out;
+  } */
+
+  .custom-btn:hover {
+    background-color: #FF6428 !important;
+  }
+
+.footer-link {
+    text-decoration: none;
+    color: #137a85;
+    font-weight: bold;
+}
+
+img.column-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
